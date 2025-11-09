@@ -34,4 +34,4 @@ DATABASES = {
 }
 """
 
-INSTALLED_APPS = ("db",)
+INSTALLED_APPS = ("db", "Cash_Register")

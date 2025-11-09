@@ -1,0 +1,10 @@
+12345 Coffee 8.32
+67890 Muffin 2.50
+13424 Cookie 3.40
+43423 Orange 1.20
+87369 Banana 2.10
+33213 Chocolate 2.67
+15332 Avacado 1.78
+43134 Ham 14.50
+13431 Chips 6.42
+43252 Strawberry 3.54

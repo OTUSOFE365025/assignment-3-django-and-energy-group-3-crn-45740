@@ -6,11 +6,15 @@ except Exception:
     print('Exception: Django Not Found, please install it with "pip install django".')
     sys.exit()
 
-
-# Sample User model
-class User(models.Model):
-    name = models.CharField(max_length=50, default="Dan")
-
+#new Product model for Cash Register Application
+class Product(models.Model):
+    upc = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+    
     def __str__(self):
-        return self.name
+        return f"{self.name} (${self.price:<.2f})"
+    
+    def get_rounded_price(self):
+        return round(float(self.price), 2)
 
