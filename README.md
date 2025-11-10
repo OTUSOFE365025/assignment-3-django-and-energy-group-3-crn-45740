@@ -99,10 +99,19 @@ py manage.py load_products
 <img width="2600" height="1649" alt="image" src="https://github.com/user-attachments/assets/6f3e902e-27d0-4f33-9461-f8561b038599" />
 
 
+3. Initialize database
+```
+python manage.py makemigrations db; python manage.py migrate
+```
+
+
 3. Run program
 ```
 py main.py
 ```
+
+<img width="1725" height="934" alt="image" src="https://github.com/user-attachments/assets/a81f408e-922e-4062-814f-d7ccc34c6ae8" />
+
 
 
 :mortar_board: Django Models
