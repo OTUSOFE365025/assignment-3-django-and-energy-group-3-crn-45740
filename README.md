@@ -90,12 +90,15 @@ ID: 2	Username: Robert
 ----------------------------
 
 1. Set up virtual environment, same as quick setup instructions.
+
    
 2. Load products into the database from prodInfo.txt
 ```
 py manage.py load_products
 ```
-"C:\Users\jayde\OneDrive\Pictures\Screenshots\Screenshot 2025-11-09 212702.png"
+<img width="2600" height="1649" alt="image" src="https://github.com/user-attachments/assets/6f3e902e-27d0-4f33-9461-f8561b038599" />
+
+
 3. Run program
 ```
 py main.py
@@ -105,7 +108,7 @@ py main.py
 :mortar_board: Django Models
 ----------------------------
 
-Link: [How to Use Django Models](https://docs.djangoproject.com/en/3.1/topics/db/models/)
+
 
 License
 -------
