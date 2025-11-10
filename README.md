@@ -86,7 +86,7 @@ ID: 2	Username: Robert
 ```
 
 
-:**Usage and Run Instructions**
+**Usage and Run Instructions**
 ----------------------------
 
 1. Set up virtual environment, same as quick setup instructions.
