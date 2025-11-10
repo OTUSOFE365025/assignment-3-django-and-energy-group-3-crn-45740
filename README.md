@@ -85,6 +85,23 @@ ID: 1	Username: Dan
 ID: 2	Username: Robert
 ```
 
+
+:**Usage and Run Instructions**
+----------------------------
+
+1. Set up virtual environment, same as quick setup instructions.
+   
+2. Load products into the database from prodInfo.txt
+```
+py manage.py load_products
+```
+"C:\Users\jayde\OneDrive\Pictures\Screenshots\Screenshot 2025-11-09 212702.png"
+3. Run program
+```
+py main.py
+```
+
+
 :mortar_board: Django Models
 ----------------------------
 
