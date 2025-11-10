@@ -22,11 +22,20 @@ from db.models import *
 ############################################################################
 ## START OF APPLICATION
 ############################################################################
-""" Replace the code below with your own """
 
-# Seed a few users in the database
-User.objects.create(name='Dan')
-User.objects.create(name='Robert')
+from Cash_Register.scan_ui import View
+from Cash_Register.controller import Controller
 
-for u in User.objects.all():
-    print(f'ID: {u.id} \tUsername: {u.name}')
+def main():
+    #Initialize GUI
+    view = View("Cash Register")
+    
+    #Wire controller to GUI
+    controller = Controller(view)
+    
+    #Start GUI loop
+    view.start()
+
+if __name__ == "__main__":
+    main()
+    

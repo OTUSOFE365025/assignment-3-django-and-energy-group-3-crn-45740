@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-cPJVYMd)
 Django ORM Standalone
 =====================
 
@@ -7,6 +8,21 @@ Django ORM Standalone
 Use the database components of Django without having to use the rest of Django (i.e. running a web server)! :tada: A typical use case for using this template would be if you are writing a python script and you would like the database functionality provided by Django, but have no need for the request/response functionalty of a client/server web application that Django also provides. 
 
 With this project template you can write regular python scripts and use Django's excellent ORM functionality with the database backend of your choice. This makes it convienient for Djangonauts to write database driven python applications with the familiar and well polished Django ORM. Enjoy.
+
+------------------------------
+Group 3
+
+CRN: 45740
+
+**Work Contribution Matrix**
+
+Jayden Mallari (100927861)
+- Question 1
+
+Rabab Raza (100932792)
+- Question 2
+
+------------------------------
 
 :gear: Requirements
 -------------------
@@ -84,10 +100,39 @@ ID: 1	Username: Dan
 ID: 2	Username: Robert
 ```
 
+
+**Usage and Run Instructions**
+----------------------------
+
+1. Set up virtual environment, same as quick setup instructions.
+
+   
+2. Load products into the database from prodInfo.txt
+```
+py manage.py load_products
+```
+<img width="2600" height="1649" alt="image" src="https://github.com/user-attachments/assets/6f3e902e-27d0-4f33-9461-f8561b038599" />
+
+
+3. Initialize database
+```
+python manage.py makemigrations db; python manage.py migrate
+```
+
+
+3. Run program
+```
+py main.py
+```
+
+<img width="1725" height="934" alt="image" src="https://github.com/user-attachments/assets/a81f408e-922e-4062-814f-d7ccc34c6ae8" />
+
+
+
 :mortar_board: Django Models
 ----------------------------
 
-Link: [How to Use Django Models](https://docs.djangoproject.com/en/3.1/topics/db/models/)
+
 
 License
 -------
