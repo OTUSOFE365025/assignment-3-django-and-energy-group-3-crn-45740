@@ -5,7 +5,6 @@ import datetime
 import tkinter as tk
 import tkinter.messagebox as messagebox
 from db.models import Product
-from Cash_Register.scanner_for_app import generate_upc
 
 class Controller:
     def __init__(self, view):
