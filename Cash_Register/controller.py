@@ -38,10 +38,10 @@ class Controller:
                 self.view.update_display("Product Not Found", 0.00)
         
     
-    def clear_transaction(self):
-        self.scanned_items.clear()
+    def clear_transaction(self): #clear button functionality
+        self.scanned_items.clear() 
         self.subtotal = 0.0
-        self.view.result_text.delete(1.0, tk.END)
+        self.view.result_text.delete(1.0, tk.END) 
         self.view.update_subtotal(self.subtotal)
                 
     def export_receipt(self):
