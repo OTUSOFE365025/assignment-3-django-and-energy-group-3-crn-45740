@@ -9,6 +9,18 @@ Use the database components of Django without having to use the rest of Django (
 
 With this project template you can write regular python scripts and use Django's excellent ORM functionality with the database backend of your choice. This makes it convienient for Djangonauts to write database driven python applications with the familiar and well polished Django ORM. Enjoy.
 
+
+Group 3
+
+CRN: 45740
+
+**Work Contribution Matrix**
+Jayden Mallari (100927861)
+- Question 1
+
+Rabab Raza (100932792)
+- Question 2
+
 :gear: Requirements
 -------------------
 - Last tested successfully with Python 3.10.4 and Django 5.0.6
